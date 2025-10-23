@@ -91,9 +91,7 @@ Uvicorn (recommended for running application)
 
 Installation:
 
-1. Clone the repo
-
-   git clone <repo URL>
+1. Download the ZIP file(Student Management System.ZIP file) from the repo and extract the files.
 
 2. Install Dependencies
 
@@ -109,12 +107,17 @@ Installation:
 
 
 Usage:
-
-Run with Uvicorn
-
+1. Open the VSCode tool 
+2. Open sms file and navigate to sms directory.
+3. Run with Uvicorn
+ commond:  
    python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-
-   visit https://localhost:8000/login for the login page
+4. After excuting the above commond the application will start and look like below :
+   
+  Started server process [25152]
+  Waiting for application startup.
+  Application startup complete. 
+5. visit https://localhost:8000/login for the login page
 
 
 Sample Credentials:
@@ -124,6 +127,7 @@ Role          UserName         Password
 Admin         admin            admin123
 Professor     prof1            prof123
 Student       student1         stud123
+
 
 
 
